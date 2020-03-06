@@ -1,0 +1,31 @@
+
+<div class="container">
+  <h2 class="text-center">Products List</h2>
+  
+  <table class="table table-hover table-bordered table-sm">
+    <thead>
+      <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Product Price</th>
+        
+        <th>Actions</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+     <tr *ngFor="let list of allproducts">
+      <td>{{list.id}}</td>
+      <td>{{list.productName}}</td>
+      <td>{{list.productPrice}} Rs</td>
+      
+      <td>
+        <i class="fa fa-pencil" aria-hidden="true"  (click)="editdata(list.id)"></i> &nbsp;&nbsp;
+        <i class="fa fa-trash" aria-hidden="true" (click)="deletedata(list.id)"></i> 
+
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+</div>

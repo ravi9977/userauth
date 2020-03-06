@@ -1,0 +1,38 @@
+
+<div class="container">
+    <div class="row">
+        <div class="offset-3 col-6">
+
+
+            <h2 class="text-center">Add Product</h2>
+            <form [formGroup]="addproductForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label for="id">Product Id</label>
+                    <input type="text" formControlName="id" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.id.errors }" />
+                    <div *ngIf="submitted && f.id.errors" class="invalid-feedback">
+                        <div *ngIf="f.id.errors.required"> Please Add Id</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="productName">produc tName </label>
+                    <input type="text" formControlName="productName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.productName.errors }" />
+                    <div *ngIf="submitted && f.productName.errors" class="invalid-feedback">
+                        <div *ngIf="f.productName.errors.required"> Product Name is required</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="productPrice">Product Price</label>
+                    <input type="text" formControlName="productPrice" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.productPrice.errors }" />
+                    <div *ngIf="submitted && f.productPrice.errors" class="invalid-feedback">
+                        <div *ngIf="f.productPrice.errors.required">Product Price is required</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button [disabled]="loading"  class="btn btn-primary">Add-Product</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
