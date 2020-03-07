@@ -3,18 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { AuthGuard } from "./shared/auth.guard";
 
 
-
-
 const routes: Routes = [
-{ path: '', redirectTo: '/signup', pathMatch: 'full' },
+{ path: '', redirectTo: '/login', pathMatch: 'full' },
 
 {
  path: 'login',
  loadChildren: './login/login.module#LoginModule',
- },
- {
- path: 'signup',
- loadChildren: './signup/signup.module#SignupModule',
  },
  
 {

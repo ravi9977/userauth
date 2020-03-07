@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AuthService } from './../../shared/auth.service';
+import { Router } from '@angular/router';  
 
 @Component({
   selector: 'app-dashboard',
@@ -8,19 +9,26 @@ import { AuthService } from './../../shared/auth.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-currentUser: Object = {};
-
-  constructor(
+ constructor(
     public authService: AuthService,
-    private actRoute: ActivatedRoute
-  ) {
-    let id = this.actRoute.snapshot.paramMap.get('id');
-    this.authService.getUserProfile(id).subscribe(res => {
-      this.currentUser = res.msg;
-    })
-  }
+    private actRoute: ActivatedRoute,
+    private router: Router,) {}
+  
 
-  ngOnInit() { }
-}
 
+  Username: string;  
+  
+ 
+  ngOnInit() {  
+    this.Username = localStorage.getItem('token');  
+    //console.log(this.id);  
+  }  
+  
+  logout() {  
+    console.log('logout');  
+    this.authService.logout();  
+    this.router.navigate(['/login']);  
+  }  
+  
+}  
 

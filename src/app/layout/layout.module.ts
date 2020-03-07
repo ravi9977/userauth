@@ -11,7 +11,7 @@ import { EditProductComponent } from './edit-product/edit-product.component';
 
 
 @NgModule({
-  declarations: [LayoutComponent, DashboardComponent, ProductComponent, AddProductComponent, EditProductComponent, UserProfileComponent],
+  declarations: [LayoutComponent, DashboardComponent, ProductComponent, AddProductComponent, EditProductComponent],
   imports: [
     CommonModule,
     LayoutRoutingModule,

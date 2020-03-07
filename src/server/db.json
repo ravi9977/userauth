@@ -1,21 +1,6 @@
 {
   "users": [
     {
-      "name": "Ravi Rathore",
-      "email": "ravi@gmail.com",
-      "password": 12345
-    },
-    {
-      "name": "Jitendra Yadav",
-      "email": "jitendrai@gmail.com",
-      "password": "Yadav"
-    },
-    {
-      "name": "Nidhi Verma",
-      "email": "nidhi@gmail.com",
-      "password": "Nidhi"
-    },
-    {
       "name": "Vikash Shahu",
       "email": "vikas@gmail.com",
       "password": "vikas"
@@ -41,187 +26,31 @@
       "id": "DlNYBcK"
     },
     {
-      "email": "vikas@gmail.com",
-      "password": "vikas",
-      "id": "x88n2ec"
+      "email": "ravi@gmail.com",
+      "password": "12345",
+      "id": "2LDwyQd"
     },
     {
       "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "G3hfZL4"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "LOCur3R"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "PUpT_YN"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "VeICIGN"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "2GyzHvH"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "-jL84mJ"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "fdOn5Bd"
-    },
-    {
-      "email": "pankaj@gmail.com",
-      "password": "pawarpankaj",
-      "id": "rF_n858"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "uGtN-km"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "D7rXeoH"
-    },
-    {
-      "name": "rajesh",
-      "email": "rajesh@gmail.com",
-      "password": "123456",
-      "id": "KRF7GmB"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "tAiOa2c"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "6flHGWw"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "-YWFFqY"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "Lv8BnHS"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "5c1ufYo"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "Q5_51Wy"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "5hyJ7mg"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "X36qqp8"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "OcPjA0m"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "V6sQp4X"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "bkMynZh"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "Vly7T0f"
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": "lGUhXG0"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "jB-KqT5"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "5gt4AkN"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "useArdN"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "LwIrEeH"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "AsT6cbV"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "h9Xqumk"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "vCHcfS7"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "S0EBmwN"
-    },
-    {
-      "email": "ravi@gmail.com",
-      "password": "12345",
-      "id": "JZJuBA2"
+      "password": "12335",
+      "id": "vo5L_jV"
     }
   ],
   "product": [
     {
       "id": 1,
-      "productName": "new product 1",
+      "productName": "new product ",
       "productPrice": "750"
     },
     {
       "id": 2,
       "productName": "product 2",
       "productPrice": 1000
+    },
+    {
+      "id": "p0pq12",
+      "productName": "product p3",
+      "productPrice": "678"
     }
   ]
 }
